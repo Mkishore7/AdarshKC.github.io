@@ -1,0 +1,70 @@
+.typed-container {
+    color: #fff;
+    font-weight: bold;
+}
+#verb {
+    text-decoration: underline currentColor dashed;
+}
+
+.svg-row {
+    height: 50vh;
+}
+
+.develop {
+    color: lightslategray;
+}
+.code {
+    color: lightgreen;
+}
+.make {
+    color: lightslategray;
+}
+.invent {
+    color: lightgreen;
+}
+.question {
+    color: lightcoral;
+}
+
+@media screen and (min-width: 768px) {
+    .title-desc {
+        font-size: 2em !important; 
+    }
+    .intro-page {
+        color: #fff;
+        background: -webkit-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
+        background: -o-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
+        background: -moz-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
+        background: linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
+        background-size: cover;
+        background-position: bottom;
+        /* text-align: right; */
+    }
+    linearGradient .start-stop {
+        stop-color: #050566;
+    }
+    linearGradient .end-stop {
+        stop-color: #050566;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-desc {
+        font-size: 1.6em !important;
+    }
+    .centre-mob {
+        margin: auto !important;
+    }
+    .intro-page {
+        color: #fff;
+        background: url('../public_images/background1.jpeg');
+        background-position: left;
+    }
+    linearGradient .start-stop {
+        stop-color: #cfced3;
+    }
+    linearGradient .end-stop {
+        stop-color: #cfced3;
+    }
+}
+ 
