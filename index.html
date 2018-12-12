@@ -16,6 +16,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/timeline.css">
 
   <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -76,13 +77,14 @@
             <span class="icon-bar"></span>
           </button>                    
         </div>
-        <div class="collapse navbar-collapse" style="float: left;">
+        <div class="collapse navbar-collapse" style="text-align: center;">
           <ul class="nav navbar-nav navbar-right">                 
             <li class="scroll active"><a href="#home">Home</a></li>
             <li class="scroll"><a href="#about-us">About Us</a></li>                     
-            <li class="scroll"><a href="#services">Event</a></li> 
+            <li class="scroll"><a href="#services">Events</a></li> 
             <li class="scroll"><a href="#blog">Announcements</a></li>
             <li class="scroll"><a href="#portfolio">Gallery</a></li>
+            <li class="scroll"><a href=".timeline">Timeline</a></li>
             <li class="scroll"><a href="#contact">Contact</a></li>       
           </ul>
         </div>
@@ -448,42 +450,106 @@
   </section><!--/#portfolio-->
     
     
-  <section id="twitter" class="parallax">
-    <div>
-      <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-      <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-sm-offset-2">
-            <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">      
-                    <button class="buton"><span>Click ME </span></button>
-                    <div class="twitter-icon text-center">
-                        <h2>Visit our <span>TIMELINE</span></h2>
-                    </div>
-                </div>
-                <div class="item">
-                    <a href="team.html" target="_blank"><button class="buton" ><span>Click ME </span></button></a>
-                    <div class="twitter-icon text-center">
-                        <h2>Meet our <span>TEAM</span></h2>
-                    </div>
-                </div>
-                <div class="item">
-                    <a href="njack.html" target="_blank"><button class="buton"><span>Click ME </span></button></a>
-                    <div class="twitter-icon text-center">
-                        <h2>CS Club <span>NJACK</span></h2>
-                    </div>
-                </div>
-              </div>                        
-            </div>                    
-          </div>
-        </div>
-      </div>
+    
+    
+    <section class="timeline">
+    <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <h1 id="bigg">Timeline</h1>
     </div>
+    <br><br>
+  <ol>
+    <li>
+      <div>
+        <time>2-Jan</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>7-Jan</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>12-Jan</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>17-Jan</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>22-Jan</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>27-Jan</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2-Feb</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>7-Feb</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>12-Feb</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>17-Feb</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2-Jan</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2-Jan</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li></li>
+  </ol>
+  
+  <div class="arrows">
+    <button class="arrow arrow__prev disabled" disabled>
+      <i class="fa fa-angle-left" alt="prev timeline arrow" style="color: #B5651D; font-size: 50px; font-weight: bold;"></i>
+    </button>
+    <button class="arrow arrow__next">
+      <i class="fa fa-angle-right" alt="next timeline arrow" style="color: #B5651D; font-size: 50px; font-weight: bold;"></i>
+    </button>
+  </div>
   </section>
-    <!--/#twitter-->
 
+    <section id="twitter" class="parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" style="align-items: center;">
+                    <div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <a href="#" class="btn-loadmore">TEAM</a>
+                    </div>
+                    <h2 class="text-center" style="color: #BDA782">Meet to our team: CHEF</h2>  
+                </div>
+                <div class="col-sm-6">
+                    <div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <a href="#" class="btn-loadmore">NJACK</a>
+                    </div>
+                    <h2 class="text-center" style="color: #BDA782;"> Visit our Official Club: Njack </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    
   <section id="contact">
     <div id="contact-us" class="parallax">
       <div class="container">
@@ -562,6 +628,9 @@
   <script type="text/javascript" src="js/lightbox.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/verb.js"></script>
+  <script type="text/javascript" src="js/timeline.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js'></script>
+
     
 </body>
 </html>

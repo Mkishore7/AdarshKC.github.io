@@ -1,13 +1,22 @@
 /* lg */ 
 @media (min-width: 1200px) {
+    .collapse{
+    float: left;
+}
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
+    .collapse{
+    float: left;
+}
 }
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+    .collapse{
+    float: left;
+}
    .navbar-right li a {
 		font-size: 12px;
 		padding-right: 10px;
