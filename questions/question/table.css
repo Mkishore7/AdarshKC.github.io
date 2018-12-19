@@ -4,11 +4,8 @@
   box-sizing: border-box;
 }
 
-html {
-  background: #BDA782;
-}
-
 body {
+  background: #BDA782;
   min-height: 450px;
   height: 100vh;
   margin: 0;
