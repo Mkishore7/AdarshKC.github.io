@@ -12,6 +12,7 @@ body{
   text-align: center;
 }
 
+
 img{
   max-width: 100%;
   height: auto;
@@ -50,7 +51,6 @@ h1{
   }
 }
 
-
 .button{
   display: inline-block;
   font-size: 1.5rem;
@@ -87,7 +87,10 @@ h1{
 
 header{
   position: absolute;
-  margin-top: 1em;
+  left: 0;
+  right: 0;
+  margin: 1em;
+  background-blend-mode: luminosity;
 }
 
 nav ul{
@@ -105,9 +108,8 @@ nav a{
   font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: .8rem;
-  padding:.5em;
-  color: white;
+  font-size: 1.1rem;
+  color: #BDA782;
 }
 
 nav a:hover,
@@ -115,13 +117,28 @@ nav a:focus{
     color: #ddd;
 }
 
+@media (min-width: 30rem) {
+  nav ul {
+    margin-top: 80px;
+  }
+}
+
 @media (min-width: 60rem) {
+
   .logo{
     float: left;
   }
 
   nav {
     float: right;
+  }
+
+  nav ul {
+    margin-top: auto;
+  }
+
+  nav li {
+    font-family: cursive;
   }
 }
 /*First-Look*/
@@ -132,7 +149,8 @@ nav a:focus{
   background-blend-mode: soft-light;
   background-position: center;
   padding:10em 0;
-  color: #cad5e3;
+  color: #BDA782;
+  text-shadow: 3px 3px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
 }
 
 @media (min-width: 60rem) {
@@ -149,7 +167,7 @@ nav a:focus{
   padding:4em;
   width: 100vw;
   margin-left: -2.5%;
-  outline: 2px solid #00ff6c;
+  outline: 2px solid #B5651D;
   outline-offset: -3em;
   color: #FFF;
   position: relative;
@@ -158,7 +176,8 @@ nav a:focus{
 }
 
 .Home-About-Textbox h1 {
-  color: #00ff6c;
+  font-weight: 520;
+  color: #B5651D;
   position: absolute;
   left: 50%;
   top: .05em;
@@ -168,7 +187,7 @@ nav a:focus{
 }
 
 .Home-About-Textbox h2 {
-  color: #00ff6c;
+  color: #B5651D;
   position: absolute;
   top: 6.4em;
   left: 50%;
@@ -206,29 +225,39 @@ nav a:focus{
   padding: 7.5em;
   }
 
-  
+
   .nott{
     left: 0%;
     width: 70%;
-}
+  }
   .yess{
     left: 30%;
     width: 70%;
+  }
+
 }
-}
+
 
 /* DEPARTMENTS */
 
 .Home-Departments{
+background: #BDA782;
 margin :3em 0 0;
 }
 
 .Home-Departments h1 {
+  font-family: cursive;
   text-transform: uppercase;
-  text-decoration-style: solid;
+  /*text-decoration-style: solid;*/
+  font-weight: 10000;
+}
+
+figcaption{
+  font-family: cursive;
 }
 
 .Departments{
+  outline: 2px solid #BDA782;
   margin: 0;
   position: relative;
   text-transform: uppercase;
@@ -246,13 +275,8 @@ margin :3em 0 0;
   left: 0em;
   right: 0em;
   color: white;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(189, 167, 130, 1);
   /*padding-top: : 0.5em;*/
-  padding-bottom: 1em;
-}
-
-.Departments-Description p{
-  margin: 1em;
 }
 
 .Details1,.Details2,.Details3,.Details4,.Details5,.Details6{
@@ -329,7 +353,7 @@ footer ul{
 }
 
 footer li {
-  margin:auto;
+  margin-top:20px;
   display: inline-block;
   padding-left: 2em;
   padding-right: 2em;
